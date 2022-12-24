@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+  
+    <ion-button expand="block" class="ion-margin" (click)="getPicture()">Take/Get Photo</ion-button>
+    <img [src] ="selectedImage ?.webPath">
+    <ion-button *ngIf="selectedImage" (click)="share()" expand="block" class="ion-margin">Share via whatsapp</ion-button>
+ 
+</ion-content>

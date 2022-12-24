@@ -1,0 +1,22 @@
+<ion-content color="dark">
+  <ion-grid class="ion-no-padding">
+    <ion-label color="light">device location off</ion-label>
+    <p>
+      <ion-text color="light">
+        enabling your location
+      </ion-text>
+    </p>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="popoverController.dismiss(false)" size="small" shape="round">
+          <ion-text>no, thanks</ion-text>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button (click)="popoverController.dismiss(true)" size="small" shape="round">
+          <ion-text>enable location</ion-text>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

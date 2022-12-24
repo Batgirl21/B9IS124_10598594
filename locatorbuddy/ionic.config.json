@@ -1,0 +1,7 @@
+{
+  "name": "locatorbuddy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
